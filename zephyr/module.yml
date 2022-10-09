@@ -1,0 +1,6 @@
+name: common_interfaces
+build:
+  cmake: zephyr
+  kconfig: zephyr/Kconfig
+  depends:
+    - rcl_interfaces
